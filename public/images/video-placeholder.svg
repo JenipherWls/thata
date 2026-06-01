@@ -1,0 +1,21 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#390517"/>
+      <stop offset="0.5" stop-color="#03110D"/>
+      <stop offset="1" stop-color="#12060A"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 160) rotate(140) scale(640 420)">
+      <stop stop-color="#C8A46A" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#C8A46A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#r)"/>
+  <rect x="90" y="70" width="1020" height="535" rx="44" fill="rgba(248,248,248,0.06)" stroke="rgba(248,248,248,0.14)"/>
+  <circle cx="600" cy="338" r="76" fill="rgba(248,248,248,0.16)" stroke="rgba(248,248,248,0.22)"/>
+  <path d="M580 304L652 338L580 372V304Z" fill="rgba(248,248,248,0.80)"/>
+  <text x="140" y="612" fill="rgba(248,248,248,0.78)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22">
+    Placeholder de vídeo • substitua por embed do YouTube/Vimeo ou arquivo real
+  </text>
+</svg>

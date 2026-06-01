@@ -1,0 +1,28 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#390517"/>
+      <stop offset="0.55" stop-color="#03110D"/>
+      <stop offset="1" stop-color="#12060A"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 260) rotate(50) scale(700 520)">
+      <stop stop-color="#C8A46A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#C8A46A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="rgba(248,248,248,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="1500" rx="0" fill="url(#g)"/>
+  <rect width="1200" height="1500" fill="url(#r)"/>
+  <rect width="1200" height="1500" fill="url(#grid)"/>
+  <g opacity="0.9">
+    <rect x="96" y="1030" width="1008" height="310" rx="44" fill="rgba(248,248,248,0.08)" stroke="rgba(248,248,248,0.16)"/>
+    <text x="150" y="1120" fill="#F8F8F8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="28" letter-spacing="3">
+      SUBSTITUA POR UMA FOTO PROFISSIONAL
+    </text>
+    <text x="150" y="1182" fill="rgba(248,248,248,0.74)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="22">
+      Dica: coloque sua imagem real em public/images/hero-placeholder.svg (ou troque o src no componente).
+    </text>
+  </g>
+</svg>
